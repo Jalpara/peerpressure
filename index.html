@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>News Generator</h1>
+    <div id="preferences">
+        <label for="news-type">Select a Type of News:</label>
+        <select id="news-type">
+            <option value="sports">Sports</option>
+            <option value="politics">Politics</option>
+            <option value="business">Business</option>
+            <option value="technology">Technology</option>
+            <option value="health">Health</option>
+        </select>
+        <br>
+        <label for="location">Select a Location:</label>
+        <select id="location">
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+            <option value="india">India</option>
+        </select>
+        <br>
+        <button onclick="generatePrompt()">Generate News</button>
+    </div>
+    <div id="news-result">
+        <!-- News content will be displayed here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

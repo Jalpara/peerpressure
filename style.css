@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Dark background color */
+    color: #fff; /* White text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 20px 0;
+    color: #FF5733; /* Catchy color */
+}
+
+/* Form container styles */
+#preferences {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #333; /* Darker background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+/* Select styles */
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #444; /* Darker background for selects */
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Button styles */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF5733; /* Catchy button color */
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF8657; /* Slightly lighter color on hover */
+}
+
+/* Result container styles */
+#news-result {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #333; /* Darker background for the result */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+/* Result text styles */
+#news-result p {
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
